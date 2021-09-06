@@ -76,3 +76,12 @@ echo "Hello world from $(hostname) $(hostname -I)" > /var/www/html/index.html
 
 Practice :
 - [Setup Startup Script](https://www.loom.com/share/e4073e5b989b41139e13b63053016ade)
+
+### 6. Instance Template
+
+Notes :
+- Instance template can not be updated, you can do it but you need make a copy from it and then modify.
+- With instance template we can deploy a group vm instance.
+
+Practice :
+- [Create VM instance Using Template](https://www.loom.com/share/75e6727e48b4419bb58aeed95e789a8b)
