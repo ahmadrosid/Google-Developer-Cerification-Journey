@@ -56,6 +56,23 @@ Internal IP: Used to talk within VM Network.
 Notes:
 - When we stop the VM the public or external ip address will be changed.
 - If you want to have VM with the same ip address use static ip address and attach it to the VM make sure to use the same region.
+- Static IP Address is Billed even i you are not using it.
+- Static IP Address remain attached even if the VM is stopped.
+- Static IP Address can be switched to other VM address.
 
 Practice :
 - [Attach Static IP Address to VM Instance](https://www.loom.com/share/7835f5e1008d4bf3aea58787b9a02a28)
+
+### 5. Compute Engine with Startup Script
+It is useful to build startup scripts when you want to install and configure software for your VM instance.
+
+Example startup script :
+```bash
+#!/bin/bash
+apt update 
+apt -y install apache2
+echo "Hello world from $(hostname) $(hostname -I)" > /var/www/html/index.html
+```
+
+Practice :
+- https://www.loom.com/share/e4073e5b989b41139e13b63053016ade
