@@ -75,4 +75,4 @@ echo "Hello world from $(hostname) $(hostname -I)" > /var/www/html/index.html
 ```
 
 Practice :
-- https://www.loom.com/share/e4073e5b989b41139e13b63053016ade
+- [Setup Startup Script](https://www.loom.com/share/e4073e5b989b41139e13b63053016ade)
