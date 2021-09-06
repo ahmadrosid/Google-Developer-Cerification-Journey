@@ -19,3 +19,15 @@ Advantages
     - Each zone has one or more discrete clusters ( Cluster: Distict physical infrastructure that housed in a data center )
     - Zone in region are connected through low-latency links
 
+## 3. Google Compute Engine (GCE)
+Google Compute Engine is the Infrastructure as a Service component of Google Cloud Platform which is built on the global infrastructure that runs Google's search engine, Gmail, YouTube and other services. Google Compute Engine enables users to launch virtual machines on demand. 
+- Wikipedia
+
+Feature of GCE :
+- Create and manage lifecycle of Virtual Machine (VM) instances
+- Load balancing and auto scaling for multiple VM Instances
+- Attach storange (& Network Storage) to your VM Instances
+- Manage network connectivity and configuration for your VM Instances
+
+Pratice : 
+- [Create VM Instance](https://www.loom.com/share/0aaab2855b084874aaf14096dc2df6a4)
