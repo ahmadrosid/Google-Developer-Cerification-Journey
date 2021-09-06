@@ -31,3 +31,31 @@ Feature of GCE :
 
 Pratice : 
 - [Create VM Instance](https://www.loom.com/share/0aaab2855b084874aaf14096dc2df6a4)
+- [Connect to VM Instace using SSH](https://www.loom.com/share/cd7d645c75bd4b42a036b0c46fc6a789)
+- Command to practice setup http server
+```bash
+sudo su
+apt update 
+apt install apache2
+ls /var/www/html
+echo "Hello World!"
+echo "Hello World!" > /var/www/html/index.html
+echo $(hostname)
+echo $(hostname -i)
+echo "Hello World from $(hostname)"
+echo "Hello World from $(hostname) $(hostname -i)"
+echo "Hello world from $(hostname) $(hostname -i)" > /var/www/html/index.html
+sudo service apache2 start
+```
+- [Setup HTTP Server in VM](https://www.loom.com/share/f0de9bc046a24140a69943abcbdc394e)
+
+## 4. Internal & External IP Address
+External IP: Used to talk with the internet.
+Internal IP: Used to talk within VM Network.
+
+Notes:
+- When we stop the VM the public or external ip address will be changed.
+- If you want to have VM with the same ip address use static ip address and attach it to the VM make sure to use the same region.
+
+Practice :
+- [Attach Static IP Address to VM Instance](https://www.loom.com/share/7835f5e1008d4bf3aea58787b9a02a28)
