@@ -63,7 +63,7 @@ Notes:
 Practice :
 - [Attach Static IP Address to VM Instance](https://www.loom.com/share/7835f5e1008d4bf3aea58787b9a02a28)
 
-### 5. Compute Engine with Startup Script
+## 5. Compute Engine with Startup Script
 It is useful to build startup scripts when you want to install and configure software for your VM instance.
 
 Example startup script :
@@ -77,7 +77,7 @@ echo "Hello world from $(hostname) $(hostname -I)" > /var/www/html/index.html
 Practice :
 - [Setup Startup Script](https://www.loom.com/share/e4073e5b989b41139e13b63053016ade)
 
-### 6. Instance Template
+## 6. Instance Template
 
 Notes :
 - Instance template can not be updated, you can do it but you need make a copy from it and then modify.
