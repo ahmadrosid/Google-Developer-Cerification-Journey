@@ -1,11 +1,11 @@
 # Introduction to Google Cloud Platform
 
-## 1. What is Google Cloud Platform?
+## What is Google Cloud Platform?
 Google Cloud Platform, offered by Google, is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail, file storage, and YouTube.
 
 The Google Cloud Platform allows us not only to rent servers, but to use services in order to handle different scenarios as well, such as delivering content via cdn, dealing with big traffic, etc.
 
-## 2. Regions and Zones
+## Regions and Zones
 Region: Spesific geographical location to host your resources.
 Advantages: 
     - High Availability
@@ -19,7 +19,7 @@ Advantages
     - Each zone has one or more discrete clusters ( Cluster: Distict physical infrastructure that housed in a data center )
     - Zone in region are connected through low-latency links
 
-## 3. Google Compute Engine (GCE)
+## Google Compute Engine (GCE)
 Google Compute Engine is the Infrastructure as a Service component of Google Cloud Platform which is built on the global infrastructure that runs Google's search engine, Gmail, YouTube and other services. Google Compute Engine enables users to launch virtual machines on demand. 
 - Wikipedia
 
@@ -49,7 +49,7 @@ sudo service apache2 start
 ```
 - [Setup HTTP Server in VM](https://www.loom.com/share/f0de9bc046a24140a69943abcbdc394e)
 
-## 4. Internal & External IP Address
+## Internal & External IP Address
 External IP: Used to talk with the internet.
 Internal IP: Used to talk within VM Network.
 
@@ -63,7 +63,7 @@ Notes:
 Practice :
 - [Attach Static IP Address to VM Instance](https://www.loom.com/share/7835f5e1008d4bf3aea58787b9a02a28)
 
-## 5. Compute Engine with Startup Script
+## Compute Engine with Startup Script
 It is useful to build startup scripts when you want to install and configure software for your VM instance.
 
 Example startup script :
@@ -77,7 +77,7 @@ echo "Hello world from $(hostname) $(hostname -I)" > /var/www/html/index.html
 Practice :
 - [Setup Startup Script](https://www.loom.com/share/e4073e5b989b41139e13b63053016ade)
 
-## 6. Instance Template
+## Instance Template
 
 Notes :
 - Instance template can not be updated, you can do it but you need make a copy from it and then modify.
