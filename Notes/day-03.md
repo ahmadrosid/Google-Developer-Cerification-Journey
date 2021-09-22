@@ -48,3 +48,51 @@ Compute Engine -> Create VM ->  Management, security, disks, networking, sole te
 ```
 And config the VM instance :
 ![Config VM Insance Sole tenancy](/assets/config_sole_tenancy.png)
+
+## Quick review of Compute Engine
+
+### Image
+- What **operating system** and what **software** do you want on the VM instance?
+- Reduce boot time and improve security by createing custom **hardened image**.
+- You can share an Image with other projects.
+
+### Machine Types
+- Optimized combination of compute(CPU, GPU), memory, dist (storage) and networking for specific workloads.
+- You can **create your own Custom Machine Types** when existing ones don't fit your needs.
+- **Static IP Addresses**: Get a constant IP addresses for VM instances.
+- **Instance Templates**: Pre-configured template simplifying the creation of VM instances.
+- **Sustained use discount**: Automatic discounts for running VM instances for significant portion of the billing month.
+- **Committed use discount**: 1 year or 3 year reservations for workloads with **predictable resource** needs.
+- **Preemtible VM**: Short-lived cheaper (upto 80%) compute instaces for non-time critical fault-tolerant workloads.
+
+## Questions
+<details>
+    <summary>1. What does 2 in the Machine Type e2-standard-2 represent?</summary>
+
+    2 vCPUs
+</details>
+
+<details>
+    <summary>2. How can you avoid specifying all the VM instance details every time you create a VM?</summary>
+
+    Create an Instance Template
+</details>
+
+<details>
+    <summary>3. Which of these is the preferred option to reduce the launch time of a VM instance? (startup script/ custom image)</summary>
+
+    Custom image
+</details>
+
+<details>
+    <summary>4. You want to keep your costs to a minimum. Which of these would you use for a non-time-critical fault-tolerant batch program?</summary>
+
+    Preemtible VM
+</details>
+
+<details>
+    <summary>5. Which of these is recommended for a web application that is expected to run continuously for years serving hundreds of thousands of users?
+    </summary>
+
+    Committed use discount
+</details>
