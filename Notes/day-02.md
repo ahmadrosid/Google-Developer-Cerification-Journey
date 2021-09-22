@@ -52,5 +52,5 @@ How to configure Availability Policy: Automatic restart
 Create instance -> "Management, security, disks, networking, sole tenancy" -> Availability policy -> Automatic restart
 ```
 
-![Availability Policy](/assets/availability_olicy.png)
+![Availability Policy](/assets/availability_policy.png)
 
